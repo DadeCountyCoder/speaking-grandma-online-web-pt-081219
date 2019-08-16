@@ -1,11 +1,8 @@
-# Write a speak_to_grandma method.
 
-def speak_to_grandma(phrase)  
-    expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'	  # Check if string equals same phrase all upper case letters, which means string is all uppercase
-  if phrase == phrase.upcase 
-    # return this string if condition is true 
-    puts "NO, NOT SINCE 1938!"
-  else 
-    # return this string if condition is false 
-    puts "HUH?! SPEAK UP, SONNY!"
-  end	  end
+describe '#speak_to_grandma' do	def speak_to_grandma(phrase)
+  it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do	    if phrase != phrase.upcase()
+    expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'	      return "HUH?! SPEAK UP, SONNY!"
+  end	    else
+
+       return "NO, NOT SINCE 1938!"
+  it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do	    end
