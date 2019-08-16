@@ -1,22 +1,18 @@
+def speak_to_grandma(phrase)  
+  # Check if string equals same phrase all upper case letters, which means string is all uppercase
+  if phrase == phrase.upcase 
+    # return this string if condition is true 
+    puts "NO, NOT SINCE 1938!"
+  else 
+    # return this string if condition is false 
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
+end
 
 
-def speak_to_grandma(phrase)
+# execute function passing input_phrase variable as argument
+speak_to_grandma(input_phrase)
 
-    if phrase == "I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN!"
-
-    
-    elsif phrase.downcase
-  		return "HUH?! SPEAK UP, SONNY!"
-    elsif phrase.downcase
-      return "HUH?! SPEAK UP, SONNY!"
- 
-    # NO, NOT SINCE 1938!
-    else 
-  		return "NO, NOT SINCE 1938!"
-    end
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'
 end
 
 speak_to_grandma("HELLO THERE")
