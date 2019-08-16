@@ -1,4 +1,4 @@
-input_phrase = "Hi nana"
+input_phrase = "Hi Nana, how are you?"
 def speak_to_grandma(phrase)  
   
   # Check if string equals same phrase all upper case letters, which means string is all uppercase
