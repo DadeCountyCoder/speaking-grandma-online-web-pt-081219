@@ -6,7 +6,7 @@ def speak_to_grandma(phrase)
   else 
     # return this string if condition is false 
     puts "HUH?! SPEAK UP, SONNY!"
-  end
+
 end
 
 
