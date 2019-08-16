@@ -6,4 +6,6 @@ def speak_to_grandma(phrase)
   end	    else
 
        return "NO, NOT SINCE 1938!"
-  it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do	    end
+       
+  it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do	  
+    end
